@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [NopCommorce]">
+  <listeners>
+    <listener class-name="commons.MethodListener"/>
+    <listener class-name="report.config.ExtentTestListenerV5"/>
+  </listeners>
+  <test thread-count="5" name="Run On Chrome(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.nopcommerce.user.Level_15_ExtentV5_Screenshot">
+        <methods>
+          <include name="User_02_Login" invocation-numbers="0"/>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+          <include name="initBeforeSuite"/>
+        </methods>
+      </class> <!-- com.nopcommerce.user.Level_15_ExtentV5_Screenshot -->
+    </classes>
+  </test> <!-- Run On Chrome(failed) -->
+</suite> <!-- Failed suite [NopCommorce] -->
